@@ -1,13 +1,13 @@
-{{-- @include('layouts.master')
+@extends('layouts.master')
 
 @section('header')
     
 @endsection
 
-@section('content') --}}
+@section('content')
     <h1>表示成功！</h1>
-{{-- @endsection
+@endsection
 
 @section('footer')
     
-@endsection --}}
+@endsection
