@@ -13,6 +13,7 @@ class CreateItemsTable extends Migration
      */
     public function up()
     {
+        // アイテム（ホーム画面に表示するジャンル）
         Schema::create('items', function (Blueprint $table) {
             $table->bigIncrements('id');
             // $table->unsignedBigInteger('genre_id')->comment('ジャンルid');
